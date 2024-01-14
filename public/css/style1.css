@@ -1,0 +1,27 @@
+/*user icon */
+.usericon{
+    width: 40px;
+    height: 40px;
+    background: wheat;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+/* .usericon a{
+    text-decoration: none;
+    color: #E23D19;
+} */
+
+.usericon:hover{
+    background-color: white;
+}
+.usericon i.fa.fa-regular.fa-user{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 25px;
+}
